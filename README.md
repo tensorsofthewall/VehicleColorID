@@ -12,7 +12,7 @@ Performs object segmentation using YOLOv3 with color recognition using color his
 - color_feature_extractor and knn modules need to be placed in the same folder as VehicleColorID file.
 - Dataset of colors to be detected should be placed with these files.
 
-## Training Data Creation
+## Training Data Generation
 Run color_feature_extractor.py using the following command: python color_feature_extractor.py --path $COLOR_DATASET_PATH$
 
 ## Running the classifier
